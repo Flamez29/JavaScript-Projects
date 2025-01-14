@@ -1,43 +1,65 @@
 // VARIABLES
-let name = 'Peculiar';
-let whatIwantToBecomeInLife = 'Programmer';
-let gender = 'Male';
-let twitterHandle = 'codewithflamez';
+// let name = 'Peculiar';
+// let whatIwantToBecomeInLife = 'Programmer';
+// let gender = 'Male';
+// let twitterHandle = 'codewithflamez';
 
-console.log(name);
-console.log(whatIwantToBecomeInLife);
-console.log(gender);
-console.log(twitterHandle);
+// console.log(name);
+// console.log(whatIwantToBecomeInLife);
+// console.log(gender);
+// console.log(twitterHandle);
 
-console.table({ Fullname: name, Ambition: whatIwantToBecomeInLife, Sex: gender, Socials: twitterHandle });
+// console.table({ Fullname: name, Ambition: whatIwantToBecomeInLife, Sex: gender, Socials: twitterHandle });
 
 // BASIC MATHEMATICS
-let firstFavNum = 29;
-let secondFavNum = 01;
+// let firstFavNum = 29;
+// let secondFavNum = 01;
 
-console.log(firstFavNum + secondFavNum);
-console.log(firstFavNum - secondFavNum);
-console.log(firstFavNum * secondFavNum);
-console.log(firstFavNum / secondFavNum);
-console.log(firstFavNum % secondFavNum);
-console.log(firstFavNum ** secondFavNum);
+// console.log(firstFavNum + secondFavNum);
+// console.log(firstFavNum - secondFavNum);
+// console.log(firstFavNum * secondFavNum);
+// console.log(firstFavNum / secondFavNum);
+// console.log(firstFavNum % secondFavNum);
+// console.log(firstFavNum ** secondFavNum);
 
-let Money = 50;
-let MoneySpent = 50;
-console.log(Money + MoneySpent);
+// BOOLEAN VALUES
+// let isJsProgrammingLanguage = true;
+// let isJsHard = false;
+// let favNumb = 29;
+// console.log(isJsProgrammingLanguage);
+// console.log(isJsHard);
+// console.log(favNumb + undefined);
 
-MoneySpent = 30;
-console.log(Money + MoneySpent);
+// RELATIONAL OPERATORS under Comparison operators
+// console.log(30 > 30);
+// console.log(30 < 30);
+// console.log(30 >= 30);
 
-Money = 20;
-MoneySpent = 20;
-console.log(Money + MoneySpent);
+// EQUALITY OPERATORS under Comparison operators
+// console.log(10 === 20);
+// console.log(10 === '10');
+// console.log(10 !== 10);
 
-console.log(Boolean(3 - 9));
+// EXERCISE ON COMPARISON OPERATORS
+// let firstFavNumb = 29;
+// let secondFavNumb = 01;
+// console.log(firstFavNumb > secondFavNumb);
+// console.log(firstFavNumb < secondFavNumb);
+// console.log(firstFavNumb >= secondFavNumb);
+// console.log(firstFavNumb <= secondFavNumb);
+// console.log(firstFavNumb === secondFavNumb);
+// console.log(firstFavNumb == secondFavNumb);
+// console.log(firstFavNumb !== secondFavNumb);
+// console.log(firstFavNumb != secondFavNumb);
 
-let notSure = undefined;
-console.log(notSure);
 
-notSure = 500 + 500;
-console.log(notSure);
+// STRINGS
+// String Concatenation
+let firstWord = "I want to";
+let secondWord = "buy a";
+let thirdWord = "Dodge Challenger";
+let fourthWord = "before age 30.";
+let fullWord = firstWord + " " + secondWord + " " + thirdWord + " " + fourthWord;
+console.log(fullWord);
 
+console.log(thirdWord.toUpperCase());  
